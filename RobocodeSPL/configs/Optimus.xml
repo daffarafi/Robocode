@@ -9,11 +9,12 @@
 	<feature manual="selected" name="LinearTargeting"/>
 	<feature automatic="unselected" name="MouseTargeting"/>
 	<feature automatic="selected" name="Movement"/>
-	<feature manual="selected" name="NoMovement"/>
+	<feature automatic="unselected" name="NoMovement"/>
 	<feature automatic="unselected" name="KeyboardMovement"/>
-	<feature automatic="unselected" name="AutoMovement"/>
-	<feature automatic="unselected" name="Cornering"/>
+	<feature automatic="selected" manual="selected" name="AutoMovement"/>
+	<feature manual="selected" name="Cornering"/>
 	<feature automatic="unselected" name="Line"/>
+	<feature name="ForwardBackward"/>
 	<feature automatic="selected" name="SelectEnemy"/>
 	<feature automatic="unselected" name="WeakestSelectEnemy"/>
 	<feature manual="selected" name="StrongestSelectEnemy"/>

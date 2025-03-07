@@ -27,6 +27,4 @@ public class Line extends Movement {
 			moveDirection *= -1;
 		}
 	}
-
-
 }
